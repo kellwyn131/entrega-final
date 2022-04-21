@@ -1,0 +1,1414 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+    }
+ /* Formas e Fundos da Primeira Página */   
+.Background1Page {
+    background: #116cff;
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+}
+.WhiteSquare {
+    background: #ffffff;
+    position: absolute; left: 100px; top: 42px;
+    width: 35.94px;
+    height: 37px;
+    z-index: 2;
+}
+.Retangle {
+    background: #00235C;
+    position: absolute; left: 100px; top: 42px;
+    width: 129.32px;
+    height: 37px;
+    z-index: 1;
+}
+.LoginBackground {
+    background: #ffffff;
+    position: absolute; left: 1162px; top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 104px;
+    height: 39px;
+    border-radius: 10px;
+    z-index: 2;
+}
+.BookBackground {
+    background: #ffffff;
+    position: absolute; left: 100px; top: 477px;
+    width: 200px;
+    height: 52px;
+    border-radius: 10px;
+    z-index: 2;
+}
+.LearnMoreBackground {
+    position: absolute; left: 324px; top: 477px;
+    width: 200px;
+    height: 52px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    z-index: 2;
+}
+.UniqueBackground {
+    background: #e7f0ff;
+    position: absolute; left: 609px; top: 525px;
+    width: 263px;
+    height: 60px;
+    border-radius: 20px;
+    z-index: 2;
+}
+.ExperienciedBackground {
+    background: #ffcf2d;
+    position: absolute; left: 1003px; top: 131px;
+    width: 263px;
+    height: 60px;
+    border-radius: 20px;
+    z-index: 2;
+}
+.UniqueArrow {
+    color: #e7f0ff;
+    position: absolute; left: 858px; top: 531px;
+    border-top: 15px solid transparent;
+    border-left: 26px solid;
+    border-bottom: 15px solid transparent;
+    
+    z-index: 3;
+}
+.ExperienciedArrow {
+    color: #ffcf2d;
+    position: absolute; left: 991px; top: 147px;
+    border-top: 15px solid transparent;
+    border-right: 26px solid;
+    border-bottom: 15px solid transparent;
+    
+    z-index: 3;
+}
+.Square {
+    position: absolute; left: 748px; top: 166px;
+    width: 423px;
+    height: 395px;
+    background: #ffffff;
+    border-radius: 20px;
+}
+/* Frases e Textos da Primeira Página */
+.C {
+    color: #00235C;
+    position: absolute; left: 109.51px; top: 51.51px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22.5524px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    width: 18px;
+    height: 18px;
+    z-index: 3;
+}
+.CodingKid {
+    color: #ffffff;
+    position: absolute; left: 145.46px; top: 51.51px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12.6857px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    width: 79px;
+    height: 18px;
+    z-index: 3;
+}
+.Testimony {
+    color: #ffffff;
+    position: absolute; left: 413px; top: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    width: 84px;
+    height: 19px;
+    margin: 0px 10px;
+    z-index: 3;
+}
+.Class {
+    color: #ffffff;
+    position: absolute; left: 589px; top: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    width: 43px;
+    height: 19px;
+    z-index: 3;
+}
+.OurAct {
+    color: #ffffff;
+    position: absolute; left: 724px; top: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    width: 91px;
+    height: 19px;
+    margin: 0px 10px;
+    z-index: 3;
+}
+.Contact {
+    color: #ffffff;
+    position: absolute; left: 907px; top: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    width: 86px;
+    height: 19px;
+    z-index: 3;
+}
+.Login {
+    color: #116cff;
+    position: absolute; left: 1192px; top: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    width: 44px;
+    height: 19px;
+    z-index: 3;
+}
+.Experiencied {
+    color: #00235C;
+    position: absolute; left: 1024px; top: 149px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    width: 221px;
+    height: 24px;
+    z-index: 3;
+}
+.Learn {
+    color: #ffffff;
+    position: absolute; left: 100px; top: 204px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 80px;
+    width: 522px;
+    height: 161px;
+    z-index: 3;
+}
+.Discover {
+    color: #ffffff;
+    position: absolute; left: 100px; top: 381px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32.4px;
+    width: 403px;
+    height: 64px;
+    z-index: 3;
+}
+.Book {
+    color: #116cff;
+    position: absolute; left: 138px; top: 492px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    width: 125px;
+    height: 24px;
+    z-index: 3;
+}
+.LearnMore {
+    color: #ffffff;
+    position: absolute; left: 370px; top: 492px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    width: 109px;
+    height: 24px;
+    z-index: 3;
+}
+.Unique {
+    color: #00235C;
+    position: absolute; left: 629px; top: 543px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    width: 174px;
+    height: 24px;
+    z-index: 3;
+}
+/* Imagens da Primeira Página */
+.PersonImg {
+    position: absolute; left: 634px; top: 160px;
+    width: 632px;
+    height: 386.5px;
+}
+.AsteriskImg {
+    position: absolute; left: 730px; top: 158px;
+    width: 34px;
+    height: 32.76px;
+}
+.AsteriskImg2 {
+    position: absolute; left: 1144px; top: 544px;
+    width: 34px;
+    height: 32.76px;
+}
+/* Links da Primeira Página */
+.Button {
+    text-decoration: none;
+    color: #ffffff;  
+}
+/* Fundos e Formas da Segunda Página */
+.Background2Page {
+    position: absolute; left: 0px; top: 728px;
+    background: #ffffff;
+    width: 100%;
+    height: 100%;
+}
+.BlueSquare {
+    position: absolute; left: 110px; top: 886px;
+    background: #116cff;
+    width: 426px;
+    height: 398px;
+    border-radius: 20px;
+    z-index: 1;
+}
+/* Frases e Textos da Segunda Página */
+.Increases {
+    color: #00235C;
+    position: absolute; left: 628px; top: 931px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    width: 630px;
+    height: 120px;
+    z-index: 1;
+}
+.Having {
+    color: #00235C;
+    position: absolute; left: 628px; top: 1069px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    width: 561px;
+    height: 160px;
+    z-index: 1;
+}
+/* Imagens da Segunda Página */
+.Line {
+    position: absolute; left: 45px; top: 796px;
+    width: 81px;
+    height: 336.27px;
+    z-index: 2;
+}
+.Person2Img {
+    position: absolute; left: 100px; top: 937px;
+    width: 528px;
+    height: 296.88px;
+    z-index: 3;
+}
+/* Formas e Fundos da Terceira Página */
+.Background3Page {
+    position: absolute; left: 0px; top: 1456px;
+    background: #116cff;
+    width: 100%;
+    height: 100%;
+}
+.WhiteSquare2 {
+    position: absolute; left: 840px; top: 1614px;
+    background: #ffffff;
+    width: 426px;
+    height: 398px;
+    border-radius: 20px;
+    z-index: 1;
+}
+/* Frases e Textos da Terceira Página */
+.Preparing {
+    color: #ffffff;
+    position: absolute; left: 100px; top: 1659px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    width: 570px;
+    height: 180px;
+    z-index: 1;
+}
+.Kids {
+    color: #ffffff;
+    position: absolute; left: 100px; top: 1857px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    width: 526px;
+    height: 120px;
+    z-index: 1;
+}
+/* Imagens da Terceira Página */
+.FlameImg {
+    position: absolute; left: 708px; top: 1472px;
+    width: 371px;
+    height: 492px;
+    z-index: 2;
+}
+.Person3Img {
+    position: absolute; left: 899px; top: 1533px;
+    width: 321.1px;
+    height: 561px;
+    z-index: 3;
+}
+/* Formas e Fundos da Quarta Página */
+.Background4Page {
+    position: absolute; left: 0px; top: 2184px;
+    background: #ffffff;
+    width: 100%;
+    height: 100%;
+}
+.EleanorBaloon {
+    position: absolute; left: 208.66px; top: 2346px;
+    background: #e7f0FF;
+    width: 440px;
+    height: 187px;
+    border-radius: 20px;
+    z-index: 2;
+}
+.JaneBaloon {
+    position: absolute; left: 207.7px; top: 2555px;
+    background: #ffe6e5;
+    width: 440px;
+    height: 187px;
+    border-radius: 20px;
+    z-index: 2;
+}
+.CameronBaloon {
+    position: absolute; left: 723px; top: 2346px;
+    background: #ffe6e5;
+    width: 440px;
+    height: 187px;
+    border-radius: 20px;
+    z-index: 2;
+}
+.JennyBaloon {
+    position: absolute; left: 723px; top: 2555px;
+    background: #e7f0FF;
+    width: 440px;
+    height: 187px;
+    border-radius: 20px;
+    z-index: 2;
+}
+.EleanorCircle {
+    position: absolute; left: 100px; top: 2346px;
+    background: #ffffff;
+    width: 80px;
+    height: 78.34px;
+    border-radius: 100px;
+    z-index: 2;
+}
+.JaneCircle {
+    position: absolute; left: 100px; top: 2555px;
+    background: #ffffff;
+    width: 80px;
+    height: 78.34px;
+    border-radius: 100px;
+    z-index: 2;
+}
+.CameronCircle {
+    position: absolute; left: 1186px; top: 2346px;
+    background: #ffffff;
+    width: 80px;
+    height: 78.34px;
+    border-radius: 100px;
+    z-index: 2;
+}
+.JennyCircle {
+    position: absolute; left: 1186px; top: 2555px;
+    background: #ffffff;
+    width: 80px;
+    height: 78.34px;
+    border-radius: 100px;
+    z-index: 2;
+}
+.EleanorArrow {
+    position: absolute; left: 188px; top: 2367px;
+    color: #e7f0ff;
+    border-top: 20px solid transparent;
+    border-right: 40.98px solid;
+    border-bottom: 20px solid transparent;
+    z-index: 2;
+}
+.JaneArrow {
+    position: absolute; left: 187.04px; top: 2576px;
+    color: #ffe6e5;
+    border-top: 20px solid transparent;
+    border-right: 40.98px solid;
+    border-bottom: 20px solid transparent;
+    z-index: 2;
+}
+.CameronArrow {
+    position: absolute; left: 1142.34px; top: 2367px;
+    color: #ffe6e5;
+    border-top: 20px solid transparent;
+    border-left: 40.98px solid;
+    border-bottom: 20px solid transparent;
+    z-index: 2;
+}
+.JennyArrow {
+    position: absolute; left: 1142.34px; top: 2576px;
+    color: #e7f0ff;
+    border-top: 20px solid transparent;
+    border-left: 40.98px solid;
+    border-bottom: 20px solid transparent;
+    z-index: 2;
+}
+/* Frases e Textos da Quarta Página */
+.Testimony4Page {
+    color: #116cff;
+    position: absolute; left: 101px; top: 2244px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    width: 185px;
+    height: 50px;
+    z-index: 2;
+}
+.EleanorName {
+    color: #00235C;
+    position: absolute; left: 232.66px; top: 2370px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 25px;
+    width: 234px;
+    height: 25px;
+    z-index: 2;
+}
+.JaneName {
+    color: #00235C;
+    position: absolute; left: 231.7px; top: 2579px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 25px;
+    width: 234px;
+    height: 25px;
+    z-index: 2;
+}
+.CameronName {
+    color: #00235C;
+    position: absolute; left: 747px; top: 2370px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 25px;
+    width: 318px;
+    height: 25px;
+    z-index: 2;
+}
+.JennyName {
+    color: #00235C;
+    position: absolute; left: 747px; top: 2579px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 25px;
+    width: 312px;
+    height: 25px;
+    z-index: 2;
+}
+.EleanorText {
+    color: #00235C;
+    position: absolute; left: 232.66px; top: 2431px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25.41px;
+    width: 392px;
+    height: 78px;
+    z-index: 2;
+}
+.JaneText {
+    color: #00235C;
+    position: absolute; left: 231.7px; top: 2640px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25.41px;
+    width: 372px;
+    height: 78px;
+    z-index: 2;
+}
+.CameronText {
+    color: #00235C;
+    position: absolute; left: 747px; top: 2433px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25.41px;
+    width: 392px;
+    height: 78px;
+    z-index: 2;
+}
+.JennyText {
+    color: #00235C;
+    position: absolute; left: 747px; top: 2642px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25.41px;
+    width: 392px;
+    height: 78px;
+    z-index: 2;
+}
+.Regular {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+}
+.Aspas {
+    color: #ff463a;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    width: 392px;
+    height: 78px;
+    z-index: 2;
+    
+}
+/* Imagens da Quarta Página */
+.Eleanor {
+    position: absolute; left: 107.27px; top: 2353.12px;
+    width: 65.45px;
+    height: 64.1px;
+    z-index: 2;
+}
+.Jane {
+    position: absolute; left: 107.19px; top: 2562.27px;
+    width: 65.45px;
+    height: 64.1px;
+    z-index: 2;
+}
+.Cameron {
+    position: absolute; left: 1193.27px; top: 2353.27px;
+    width: 65.45px;
+    height: 64.1px;
+    z-index: 2;
+}
+.Jenny {
+    position: absolute; left: 1193.27px; top: 2562.27px;
+    width: 65.45px;
+    height: 64.1px;
+    z-index: 2;
+}
+.EleanorStar {
+    position: absolute; left: 232.66px; top: 2403px;
+    width: 18.95px;
+    height: 20px;
+    z-index: 2;
+}
+.JaneStar {
+    position: absolute; left: 231.7px; top: 2612px;
+    width: 18.95px;
+    height: 20px;
+    z-index: 2;
+}
+.CameronStar {
+    position: absolute; left: 747px; top: 2405px;
+    width: 18.95px;
+    height: 20px;
+    z-index: 2;
+}
+.JennyStar {
+    position: absolute; left: 747px; top: 2614px;
+    width: 18.95px;
+    height: 20px;
+    z-index: 2;
+}
+.GreyBackground {
+    position: absolute; left: 274px; top: 2184px;
+    width: 1051px;
+    height: 667.53px;
+    z-index: 1;
+}
+/* Formas e Fundos da Quinta Página */
+.Background5Page {
+    position: absolute; left: 0px; top: 2912px;
+    background: #116cff;
+    width: 100%;
+    height: 100%;
+}
+.Retangle2 {
+    position: absolute; left: 100px; top: 3074px;
+    background: #e7f0ff;
+    width: 1166px;
+    height: 115px;
+    border-radius: 10px 10px 0px 0px;
+    z-index: 2;
+}
+.Box {
+    position: absolute; left: 100px; top: 3189px;
+    background: #ffffff;
+    width: 1166px;
+    height: 259px;
+    z-index: 2;
+}
+.BlueBox {
+    position: absolute; left: 1107px; top: 3107px;
+    background: #116cff;
+    width: 135px;
+    height: 50px;
+    border-radius: 10px;
+    z-index: 2;
+}
+.MiniBox {
+    position: absolute; left: 290px; top: 3339px;
+    background: #ffe6e5;
+    width: 47px;
+    height: 25px;
+    border-radius: 5px;
+    z-index: 2;
+}
+.OrangeLine {
+    position: absolute; left: 100px; top: 3082px;
+    background: #ff463a;
+    width: 0px;
+    height: 100px;
+    border-radius: 10px;
+    border: 4px solid #FF463A;
+    z-index: 2;
+}
+.Line1 {
+    position: absolute; left: 100px; top: 3254px;
+    background: #116cff;
+    width: 1166px;
+    height: 0px;
+    border: 0.5px solid #116cff;
+    z-index: 2;
+}
+.Line2 {
+    position: absolute; left: 100px; top: 3318.59px;
+    background: #116cff;
+    width: 1166px;
+    height: 0px;
+    border: 0.5px solid #116cff;
+    z-index: 2;
+}
+.Line3 {
+    position: absolute; left: 100px; top: 3383.19px;
+    background: #116cff;
+    width: 1166px;
+    height: 0px;
+    border: 0.5px solid #116cff;
+    z-index: 2;
+}
+/* Frases e Textos da Quita Página */
+.OurClass {
+    color: #ffffff;
+    position: absolute; left: 100px; top: 2972px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    width: 172px;
+    height: 50px;
+    z-index: 2;
+}
+.Beginner {
+    color: #00235C;
+    position: absolute; left: 124px; top: 3090px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    width: 288px;
+    height: 30px;
+    z-index: 2;
+}
+.Intermediate {
+    color: #116cff;
+    position: absolute; left: 124px; top: 3205.17px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    width: 327px;
+    height: 32.59px;
+    z-index: 2;
+}
+.Expert {
+    color: #116cff;
+    position: absolute; left: 124px; top: 3270px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    width: 257px;
+    height: 32.59px;
+    z-index: 2;
+}
+.FreeTrial {
+    color: #116cff;
+    position: absolute; left: 124px; top: 3335px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    width: 150px;
+    height: 32.59px;
+    z-index: 2;
+}
+.Check {
+    color: #116cff;
+    position: absolute; left: 124px; top: 3399px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    width: 153px;
+    height: 33px;
+    z-index: 2;
+}
+.New {
+    color: #ff463a;
+    position: absolute; left: 298px; top: 3343px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    width: 31px;
+    height: 17px;
+    z-index: 2;
+}
+.MonthPrice {
+    color: #00235C;
+    position: absolute; left: 610px; top: 3090px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    width: 105px;
+    height: 25px;
+    z-index: 2;
+}
+.KidsClass {
+    color: #00235C;
+    position: absolute; left: 615px; top: 3139px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    width: 95px;
+    height: 25px;
+    z-index: 2;
+}
+.Meet {
+    color: #00235C;
+    position: absolute; left: 771px; top: 3090px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    width: 118px;
+    height: 25px;
+    z-index: 2;
+}
+.Online-Offline {
+    color: #00235C;
+    position: absolute; left: 771px; top: 3139px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    width: 170px;
+    height: 25px;
+    z-index: 2;
+}
+.DetailClass {
+    color: #ffffff;
+    position: absolute; left: 1117px; top: 3120px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    width: 115px;
+    height: 24px;
+    z-index: 2;
+}
+.Price2500 {
+    color: #00235C;
+    position: absolute; left: 1175px; top: 3211px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    width: 67px;
+    height: 30px;
+    z-index: 2;
+}
+.Price2900 {
+    color: #00235C;
+    position: absolute; left: 1175px; top: 3270px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    width: 67px;
+    height: 30px;
+    z-index: 2;
+}
+.Free {
+    color: #ff463a;
+    position: absolute; left: 1192px; top: 3335px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    width: 50px;
+    height: 30px;
+    z-index: 2;
+}
+/* Imagens da Quinta Página */
+.BeginnerStar{
+    position: absolute; left: 123.66px; top: 3136px;
+    width: 18.95px;
+    height: 20px;
+    z-index: 2;
+}
+.IntermediateStar{
+    position: absolute; left: 635.66px; top: 3212px;
+    width: 18.95px;
+    height: 20px;
+    z-index: 2;
+}
+.ExpertStar{
+    position: absolute; left: 636.26px; top: 3277px;
+    width: 18.95px;
+    height: 20px;
+    z-index: 2;
+}
+.FreeStar{
+    position: absolute; left: 636.32px; top: 3342px;
+    width: 18.95px;
+    height: 20px;
+    z-index: 2;
+}
+.TagIcon {
+    position: absolute; left: 581.06px; top: 3093.06px;
+    width: 18.95px;
+    height: 20px;
+    z-index: 2;
+}
+.PersonIcon {
+    position: absolute; left: 585px; top: 3142px;
+    width: 18.95px;
+    height: 20px;
+    z-index: 2;
+}
+.ClockIcon {
+    position: absolute; left: 743px; top: 3090px;
+    width: 18.95px;
+    height: 20px;
+    z-index: 2;
+}
+.PcIcon {
+    position: absolute; left: 740px; top: 3144px;
+    width: 18.95px;
+    height: 20px;
+    z-index: 2;
+}
+/* Formas e Fundos da Sexta Página */
+.Background6Page {
+    background: #ffffff; left: 0px; top: 3640px;
+    position: absolute;
+    width: 100%;
+    height: 1104px;
+}
+.BlueBackground6Page {
+    background: #00235C; left: 0px; top: 4368px;
+    position: absolute;
+    width: 100%;
+    height: 376px;
+}
+.EmailBox {
+    color: #bcd6ff;
+    position: absolute; left: 562px; top: 3820px;
+    width: 394px;
+    height: 52px;
+    border: 1px solid #bcd6ff;
+    border-radius: 10px;
+    z-index: 2;
+}
+.ParentsBox {
+    color: #bcd6ff;
+    position: absolute; left: 562px; top: 3907px;
+    width: 394px;
+    height: 52px;
+    border: 1px solid #bcd6ff;
+    border-radius: 10px;
+    z-index: 2;
+}
+.KidsBox {
+    color: #bcd6ff;
+    position: absolute; left: 562px; top: 3994px;
+    width: 394px;
+    height: 52px;
+    border: 1px solid #bcd6ff;
+    border-radius: 10px;
+    z-index: 2;
+}
+.ClassBox {
+    color: #bcd6ff;
+    position: absolute; left: 562px; top: 4077px;
+    width: 394px;
+    height: 52px;
+    border: 1px solid #bcd6ff;
+    border-radius: 10px;
+    z-index: 2;
+}
+.RegisterBox {
+    background: #116cff;
+    position: absolute; left: 756px; top: 4177px;
+    width: 200px;
+    height: 52px;
+    border-radius: 10px;
+    z-index: 2;
+}
+.AskBox {
+    background: #ff463a;
+    position: absolute; left: 1127px; top: 3984px;
+    width: 139px;
+    height: 30px;
+    border: 2px solid #ff463a;
+    border-radius: 10px;
+    z-index: 2;
+}
+.OrangeCircle {
+    position: absolute; left: 1157px; top: 3917px;
+    width: 80px;
+    height: 80px;
+    border: 2px solid #ff463a;
+    border-radius: 80px;
+    z-index: 1;
+}
+.WhiteSquare6Page {
+    background: #ffffff;
+    position: absolute; left: 100px; top: 4456px;
+    width: 35.94px;
+    height: 37px;
+    z-index: 2;
+}
+.WhiteRetangle {
+    background: #00235C;
+    position: absolute; left: 100px; top: 4456px;
+    width: 129.32px;
+    height: 35px;
+    border: 1px solid #ffffff;
+    z-index: 1;
+}
+/* Frases e Textos da Sexta Página */
+.ReadyText {
+    color: #00235C;
+    position: absolute; left: 478px; top: 3700px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    width: 478px;
+    height: 96px;
+    z-index: 1;
+}
+.EmailText {
+    color: #00235C;
+    position: absolute; left: 410px; top: 3834px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    width: 51px;
+    height: 25px;
+    z-index: 1;
+}
+.ParentsText {
+    color: #00235C;
+    position: absolute; left: 410px; top: 3922px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    width: 120px;
+    height: 25px;
+    z-index: 1;
+}
+.KidsText {
+    color: #00235C;
+    position: absolute; left: 410px; top: 4008px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    width: 100px;
+    height: 25px;
+    z-index: 1;
+}
+.ClassText {
+    color: #00235C;
+    position: absolute; left: 410px; top: 4090px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    width: 51px;
+    height: 25px;
+    z-index: 1;
+}
+.RegisterText {
+    color: #ffffff;
+    position: absolute; left: 815px; top: 4192px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    width: 83px;
+    height: 24px;
+    z-index: 2;
+}
+.AskText {
+    color: #ffffff;
+    position: absolute; left: 1143px; top: 3988px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    width: 107px;
+    height: 22px;
+    z-index: 2;
+}
+.C6Page {
+    color: #00235C;
+    position: absolute; left: 109.51px; top: 4465.51px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22.5524px;
+    line-height: 18px;
+    width: 18px;
+    height: 18px;
+    z-index: 2;
+}
+.CodingText {
+    color: #ffffff;
+    position: absolute; left: 145.46px; top: 4465px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12.6857px;
+    line-height: 18px;
+    width: 79px;
+    height: 18px;
+    z-index: 1;
+}
+.LocText {
+    color: #ffffff;
+    position: absolute; left: 100px; top: 4523px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    width: 377px;
+    height: 18px;
+    z-index: 1;
+}
+.EmailText2 {
+    color: #ffffff;
+    position: absolute; left: 100px; top: 4571px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    width: 208px;
+    height: 18px;
+    z-index: 1;
+}
+.CompanyText {
+    color: #116cff;
+    position: absolute; left: 641px; top: 4456px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    width: 86px;
+    height: 18px;
+    z-index: 1;
+}
+.AboutText {
+    color: #ffffff;
+    position: absolute; left: 641px; top: 4504px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    width: 49px;
+    height: 18px;
+    z-index: 1;
+}
+.ContactText {
+    color: #ffffff;
+    position: absolute; left: 641px; top: 4552px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    width: 64px;
+    height: 18px;
+    z-index: 1;
+}
+.FAQText {
+    color: #ffffff;
+    position: absolute; left: 641px; top: 4600px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    width: 32px;
+    height: 18px;
+    z-index: 1;
+}
+.OurClassText {
+    color: #116cff;
+    position: absolute; left: 779px; top: 4456px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    width: 88px;
+    height: 18px;
+    z-index: 1;
+}
+.BeginnerText {
+    color: #ffffff;
+    position: absolute; left: 779px; top: 4504px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    width: 121px;
+    height: 18px;
+    z-index: 1;
+}
+.IntermediateText {
+    color: #ffffff;
+    position: absolute; left: 779px; top: 4552px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    width: 150px;
+    height: 18px;
+    z-index: 1;
+}
+.ExpertText {
+    color: #ffffff;
+    position: absolute; left: 779px; top: 4600px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    width: 102px;
+    height: 18px;
+    z-index: 1;
+}
+.InformationText {
+    color: #116cff;
+    position: absolute; left: 982px; top: 4456px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    width: 104px;
+    height: 18px;
+    z-index: 1;
+}
+.RegistrationText {
+    color: #ffffff;
+    position: absolute; left: 982px; top: 4504px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    width: 98px;
+    height: 18px;
+    z-index: 1;
+}
+.FreeTrialText {
+    color: #ffffff;
+    position: absolute; left: 982px; top: 4552px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    width: 124px;
+    height: 18px;
+    z-index: 1;
+}
+.TeacherText {
+    color: #ffffff;
+    position: absolute; left: 982px; top: 4600px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    width: 65px;
+    height: 18px;
+    z-index: 1;
+}
+.OurActivityText {
+    color: #116cff;
+    position: absolute; left: 1158px; top: 4456px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    width: 108px;
+    height: 18px;
+    z-index: 1;
+}
+.GaleryText {
+    color: #ffffff;
+    position: absolute; left: 1158px; top: 4504px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    width: 53px;
+    height: 18px;
+    z-index: 1;
+}
+/* Imagens da Sexta Página */
+.Flame1Img {
+    position: absolute; left: 387px; top: 3644px;
+    width: 63px;
+    height: 94px;
+    z-index: 2;
+}
+.Flame2Img {
+    position: absolute; left: 927px; top: 3728px;
+    width: 39.54px;
+    height: 59px;
+    z-index: 2;
+}
+.HeadphoneIcon {
+    position: absolute; left: 1185px; top: 3945px;
+    width: 24px;
+    height: 24px;
+    z-index: 2;
+}
+.InstagramIcon {
+    position: absolute; left: 103px; top: 4621.51px;
+    width: 18px;
+    height: 18px;
+    z-index: 2;
+}
+.YoutubeIcon {
+    position: absolute; left: 157.99px; top: 4623.5px;
+    width: 20px;
+    height: 14px;
+    z-index: 2;
+}
+.FacebookIcon {
+    position: absolute; left: 214px; top: 4620.5px;
+    width: 20px;
+    height: 20px;
+    z-index: 2;
+}
+.GoogleIcon {
+    position: absolute; left: 271.02px; top: 4621.56px;
+    width: 18px;
+    height: 18px;
+    z-index: 2;
+}
+.FlameBackground {
+    position: absolute; left: 0px; top: 4368px;
+    width: 363px;
+    height: 376px;
+    z-index: 1;
+}
